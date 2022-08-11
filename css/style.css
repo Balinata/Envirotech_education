@@ -83,6 +83,11 @@ span {}
 .card:hover {
     box-shadow: 1px 1px 6px var(--pink);
 }
+.card_photo {
+    background: var(--white);
+    width: 125px;
+    margin: 0 auto;
+}
 
 /* .header-logo {
 background-image: url(../images/background.png);
