@@ -88,6 +88,12 @@ span {}
     width: 125px;
     margin: 0 auto;
 }
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+  }
 
 /* .header-logo {
 background-image: url(../images/background.png);
