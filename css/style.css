@@ -2,6 +2,7 @@
     --body-fonts: #231F20;
     --text-white: white;
     --color-project: #14475F;
+    --number-color:#2891B2;
 }
 
 *,
@@ -31,7 +32,7 @@ body {
     width: 100%;
 }
 
-span {
+h1 {
     color: var(--text-white);
     font-family: 'bebasneue';
     font-style: normal;
@@ -41,8 +42,26 @@ span {
     display: flex;
     align-items: center;
 }
-
-span {}
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+span {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 162px;
+    line-height: 162px;
+    text-align: center;
+    color: var(--number-color);
+    margin: 15px 15px;
+}
 
 .header {
     background-image: url(../images/background.png);
@@ -83,7 +102,7 @@ span {}
     box-shadow: 1px 1px 6px var(--pink);
 }
 .card_photo {
-    background: var(--white);
+    color: var(--text-white);
     width: 125px;
     margin: 0 auto;
 }
@@ -127,9 +146,8 @@ span {}
     margin: 0 auto;
 }
 .text_card {
-    background: var(--text-white);
-    padding: 20px 30px 25px;
-    text-align: center;
+    text-align: left;
+    color: var(--white);
 }
 .text_card p {
     font-family: 'montserrat';
@@ -142,6 +160,7 @@ span {}
     transition: var(--text-white);
     cursor: pointer;
 }
+
 /* .header-logo {
 background-image: url(../images/background.png);
 background-size: cover;
