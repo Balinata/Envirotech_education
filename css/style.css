@@ -3,6 +3,7 @@
     --text-white: white;
     --color-project: #14475F;
     --number-color:#2891B2;
+    --card-background-color:#1085A9;
 }
 
 *,
@@ -43,7 +44,7 @@ h1 {
     align-items: center;
 }
 h2 {
-    font-family: 'Montserrat';
+    font-family: 'montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -73,16 +74,13 @@ span {
     vertical-align: top;
     height: auto;
 }
-
 .header .container {
     max-width: 100%;
 }
-
 .project {
     background-color: var(--color-project);
     height: 87px;
 }
-
 .text {
     font-family: 'montserrat';
     font-style: normal;
@@ -94,12 +92,12 @@ span {
     text-align: center;
 }
 .card {
-    width: 100%;
-    background: var(--white);
+    min-width: 255px;
+    background: var(--card-background-color);
     padding-top: 25px;
 }
 .card:hover {
-    box-shadow: 1px 1px 6px var(--pink);
+    box-shadow: 1px 1px 6px ;
 }
 .card_photo {
     color: var(--text-white);
@@ -132,19 +130,6 @@ span {
     margin-right: -4px;
     vertical-align: top;
 }
-.card {
-    width: 100%;
-    background: var(--color-project);
-    padding-top: 25px;
-}
-.card:hover {
-    box-shadow: 1px 1px 6px var(--text-white);
-}
-.card_photo {
-    background: var(--white);
-    width: 125px;
-    margin: 0 auto;
-}
 .text_card {
     text-align: left;
     color: var(--white);
@@ -155,10 +140,7 @@ span {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    text-align: center;
-    margin-top: 0;
     transition: var(--text-white);
-    cursor: pointer;
 }
 
 /* .header-logo {
