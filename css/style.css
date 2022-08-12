@@ -4,6 +4,7 @@
     --color-project: #14475F;
     --number-color:#2891B2;
     --card-background-color:#1085A9;
+    --background-footer:#87C5E0;
 }
 *,
 *::after,
@@ -136,7 +137,9 @@ margin: 0 20px;
     transition: var(--card-background-color);
     cursor: pointer;
 }
-
+.footer {
+    background: var(--background-footer);
+}
 /* .header-logo {
 background-image: url(../images/background.png);
 background-size: cover;
