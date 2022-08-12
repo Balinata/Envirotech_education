@@ -5,13 +5,11 @@
     --number-color:#2891B2;
     --card-background-color:#1085A9;
 }
-
 *,
 *::after,
 ::before {
     box-sizing: border-box;
 }
-
 body {
     /* font-weight: 500;
     font-size: 14px; */
@@ -20,19 +18,16 @@ body {
     font-family: 'montserrat', 'bebasneue' sans-serif;
     color: var(--body-fonts);
 }
-
 #wrapper {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
-
 .container {
     margin: 0 auto;
     max-width: 1150px;
     width: 100%;
 }
-
 h1 {
     color: var(--text-white);
     font-family: 'bebasneue';
@@ -54,7 +49,7 @@ h2 {
     text-align: center;
 }
 span {
-    font-family: 'Bebas Neue';
+    font-family: 'bebasneue';
     font-style: normal;
     font-weight: 700;
     font-size: 162px;
@@ -63,7 +58,6 @@ span {
     color: var(--number-color);
     margin: 15px 15px;
 }
-
 .header {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
@@ -94,10 +88,9 @@ span {
 .card {
     min-width: 255px;
     background: var(--card-background-color);
-    padding-top: 25px;
 }
 .card:hover {
-    box-shadow: 1px 1px 6px ;
+    box-shadow: 1px 1px 6px var(--text-white);
 }
 .card_photo {
     color: var(--text-white);
@@ -131,8 +124,7 @@ span {
     vertical-align: top;
 }
 .text_card {
-    text-align: left;
-    color: var(--white);
+margin: 0 20px;
 }
 .text_card p {
     font-family: 'montserrat';
@@ -140,7 +132,10 @@ span {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
+    color: var(--white);
+    text-align: center;
     transition: var(--text-white);
+    cursor: pointer;
 }
 
 /* .header-logo {
