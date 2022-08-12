@@ -90,7 +90,7 @@ span {
     background: var(--card-background-color);
 }
 .card:hover {
-    box-shadow: 1px 1px 6px var(--text-white);
+    box-shadow: 1px 1px 6px;
 }
 .card_photo {
     color: var(--text-white);
@@ -132,9 +132,8 @@ margin: 0 20px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    color: var(--white);
     text-align: center;
-    transition: var(--text-white);
+    transition: var(--card-background-color);
     cursor: pointer;
 }
 
