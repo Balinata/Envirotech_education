@@ -5,6 +5,7 @@
     --number-color:#2891B2;
     --card-background-color:#1085A9;
     --background-footer:#87C5E0;
+    --background-f2:#14475F;
 }
 *,
 *::after,
@@ -29,6 +30,19 @@ body {
     max-width: 1150px;
     width: 100%;
 }
+.header {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 713px;
+    background-position: top;
+    max-width: 100%;
+    vertical-align: top;
+    height: auto;
+}
+.header .container {
+    max-width: 100%;
+}
 h1 {
     color: var(--text-white);
     font-family: 'bebasneue';
@@ -38,6 +52,7 @@ h1 {
     line-height: 61px;
     display: flex;
     align-items: center;
+    margin: 0 30px;
 }
 h2 {
     font-family: 'montserrat';
@@ -58,19 +73,6 @@ span {
     text-align: center;
     color: var(--number-color);
     margin: 15px 15px;
-}
-.header {
-    background-image: url(../images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 713px;
-    background-position: top;
-    max-width: 100%;
-    vertical-align: top;
-    height: auto;
-}
-.header .container {
-    max-width: 100%;
 }
 .project {
     background-color: var(--color-project);
