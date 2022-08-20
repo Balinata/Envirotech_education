@@ -155,6 +155,10 @@ h3 {
     transition: var(--card-background-color);
     cursor: pointer;
 }
+.explore {
+padding: 10px;
+margin: 10px;
+}
 .footer {
     background: var(--background-footer);
 }
