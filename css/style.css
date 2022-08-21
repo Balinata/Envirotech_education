@@ -110,7 +110,6 @@ h3 {
 .card_photo {
     color: var(--text-white);
     width: 125px;
-    /* margin: 0 auto; */
 }
 .circle {
     height: 50px;
@@ -130,7 +129,7 @@ h3 {
     list-style: none;
     padding-left: 0;
 }
-.circle img {
+.card_2 img {
 margin: 10px;
 }
 .card_li {
