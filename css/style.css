@@ -126,10 +126,12 @@ h3 {
     padding: 0 0;
 }
 .cards {
-    margin: 0 -15px;
-    padding: 0;
+    margin: 0 -30px;
     list-style: none;
-    padding-bottom: 81px;
+    padding-left: 0;
+}
+.circle img {
+margin: 10px;
 }
 .card_li {
         display: flex;
@@ -158,6 +160,10 @@ h3 {
 .explore {
 padding: 10px;
 margin: 10px;
+}
+.icon {
+margin: 30px;
+padding: 30px;
 }
 .footer {
     background: var(--background-footer);
