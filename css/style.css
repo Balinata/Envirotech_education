@@ -168,3 +168,20 @@ padding: 30px;
 .footer {
     background: var(--background-footer);
 }
+.footer_two {
+background-color: var(--background-f2);
+color: var(--text-white);
+text-align: center;
+}
+.center_footer {
+    margin-top: 50px;
+    margin-bottom: 54px;
+}
+.unsubscribe {
+color: var(--background-f2);
+text-align: center;
+font-family: 'montserrat';
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+}
