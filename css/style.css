@@ -67,13 +67,12 @@ h2 {
     padding: 26px 20px;
     margin: 0;
 }
-span {
+.number {
     font-family: 'bebasneue';
     font-style: normal;
     font-weight: 700;
     font-size: 162px;
     line-height: 162px;
-    text-align: center;
     color: var(--number-color);
     margin: 15px 15px;
 }
@@ -109,7 +108,8 @@ h3 {
 }
 .card_photo {
     color: var(--text-white);
-    width: 125px;
+    padding: 0;
+    margin: 0;
 }
 .circle {
     height: 50px;
@@ -148,15 +148,16 @@ margin: 10px;
 }
 .text_card p {
     font-family: 'montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    text-align: center;
     transition: var(--card-background-color);
-    cursor: pointer;
 }
 .explore {
+padding: 10px;
+margin: 10px;
+}
+.arrow {
 padding: 10px;
 margin: 10px;
 }
@@ -166,10 +167,4 @@ padding: 30px;
 }
 .footer {
     background: var(--background-footer);
-}
-.footer_span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
 }
