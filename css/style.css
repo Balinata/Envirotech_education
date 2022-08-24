@@ -167,15 +167,20 @@ padding: 30px;
 }
 .footer {
     background: var(--background-footer);
+    height: 179px;
 }
 .footer_two {
-background-color: var(--background-f2);
-color: var(--text-white);
-text-align: center;
+    background-color: var(--background-f2);
+    color: var(--text-white);
+    text-align: center;
 }
-.center_footer {
-    margin-top: 50px;
-    margin-bottom: 54px;
+.nav {
+list-style: none;
+}
+.center_footer_contact {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: -17px;
 }
 .unsubscribe {
 color: var(--background-f2);
