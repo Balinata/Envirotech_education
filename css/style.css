@@ -69,12 +69,11 @@ h2 {
 }
 .number {
     font-family: 'bebasneue';
-    font-style: normal;
     font-weight: 700;
     font-size: 162px;
     line-height: 162px;
     color: var(--number-color);
-    margin: 15px 15px;
+    margin: 65%;
 }
 .project {
     background-color: var(--color-project);
@@ -100,22 +99,25 @@ h3 {
 }
 .card {
     width: 255px;
-    height: 268px;
+    /* height: 268px; */
     background: var(--card-background-color);
+    padding-top: 30px;
+    cursor: pointer;
 }
 .card:hover {
     box-shadow: 1px 1px 6px;
 }
-.card_photo {
+/* .card_photo {
     color: var(--text-white);
     padding: 12px;
     margin: 12px;
-}
+} */
 .circle {
     height: 50px;
     width: 50px;
     background-color: var(--text-white);
     border-radius: 50%;
+    margin: 0px 26px;
   }
 .block2 {
     max-width: 1110px;
@@ -132,9 +134,8 @@ h3 {
 .cards li {
     display: inline-block;
     width: calc(100% / 2);
-    padding: 0 15px;
     margin-right: -4px;
-    vertical-align: top;
+    padding-bottom: 30px;
 }
 .card_2 img {
 margin: 10px;
@@ -144,16 +145,17 @@ margin: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    transition: var(--card-background-color);
+    color: var(--text-white);
+    padding: 20px 30px;
 }
-.explore {
+/* .explore {
 padding: 10px;
 margin: 10px;
 }
 .arrow {
 padding: 10px;
 margin: 10px;
-}
+} */
 .icon {
 margin: 30px;
 padding: 30px;
