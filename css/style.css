@@ -73,7 +73,7 @@ h2 {
     font-size: 162px;
     line-height: 162px;
     color: var(--number-color);
-    margin: 65%;
+    margin-left: 173px;
 }
 .project {
     background-color: var(--color-project);
@@ -148,15 +148,35 @@ margin: 10px;
     color: var(--text-white);
     padding: 20px 30px;
 }
+.p_two {
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    opacity: 0.5;
+    margin: -48px 0;
+}
 .explore {
 padding: 10px;
 margin: 10px;
 color: var(--text-white);
 text-decoration: none;
 }
+.circle_two {
+    width: 18px;
+    height: 18px;
+    border: 0.1875em solid #ffffff;
+    border-radius: 50%;
+    margin: -19px 92px;
+}
 .arrow {
-padding: 10px;
-margin: 10px;
+    margin: 0 331px;
+    margin-top: -150px;
+    margin-bottom: -17px;
+    padding: 10px;
+    margin: 1px;
+    margin-top: -107px;
+    padding-bottom: 33px;
 }
 .icon {
 margin: 30px;
