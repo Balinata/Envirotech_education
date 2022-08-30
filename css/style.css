@@ -103,6 +103,7 @@ h3 {
     background: var(--card-background-color);
     padding-top: 30px;
     cursor: pointer;
+    margin: 0;
 }
 .card:hover {
     box-shadow: 1px 1px 6px;
@@ -140,13 +141,13 @@ h3 {
 .card_2 img {
 margin: 10px;
 }
-.text_card p {
+.text_card h4 {
     font-family: 'montserrat';
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: var(--text-white);
-    padding: 20px 30px;
+    padding: 0 30px;
 }
 .p_two {
     font-family: 'montserrat';
@@ -154,10 +155,9 @@ margin: 10px;
     font-size: 13px;
     line-height: 16px;
     opacity: 0.5;
-    margin: -48px 0;
+    margin: -16px 30px;
 }
 .explore {
-padding: 10px;
 margin: 10px;
 color: var(--text-white);
 text-decoration: none;
@@ -167,14 +167,9 @@ text-decoration: none;
     height: 18px;
     border: 0.1875em solid #ffffff;
     border-radius: 50%;
-    margin: -19px 92px;
+    margin: -19px 93px
 }
 .arrow {
-    margin: 0 331px;
-    margin-top: -150px;
-    margin-bottom: -17px;
-    padding: 10px;
-    margin: 1px;
     margin-top: -107px;
     padding-bottom: 33px;
 }
