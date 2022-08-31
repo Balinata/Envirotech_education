@@ -47,10 +47,8 @@ body {
     padding-top: 55%;
 }
 h1 {
-    color: var(--text-white);
     font-family: 'bebasneue';
-    font-style: normal;
-    font-weight: 700;
+    color: var(--text-white);
     font-size: 61px;
     line-height: 61px;
     margin: 0 30px;
@@ -71,7 +69,7 @@ h2 {
     font-size: 162px;
     line-height: 162px;
     color: var(--number-color);
-    margin-left: 173px;
+    margin-left: 65%;
 }
 .project {
     background-color: var(--color-project);

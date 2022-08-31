@@ -1,31 +1,31 @@
 @font-face {
-    font-family: 'montserrat';
-    src: url('./fonts/montserrat-bold-webfont.woff2') format('woff2'),
-         url('./fonts/montserrat-bold-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+	font-family: 'montserrat';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url('./fonts/fontsfree-net-montserrat-medium-webfont.woff2') format('woff2'),
-         url('./fonts/fontsfree-net-montserrat-medium-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: 'montserrat';
+	src: url('../fonts/Montserrat-Medium.eot');
+	src: local('☺'), url('fonts/Montserrat-Medium.woff') format('woff'), url('fonts/Montserrat-Medium.ttf') format('truetype'), url('fonts/Montserrat-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'bebas_neue';
-    src: url('./fonts/bebasneue-regular-webfont.woff2') format('woff2'),
-         url('./fonts/bebasneue-regular-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+	font-family: 'bebasneue';
+	src: url('../fonts/BebasNeue-Regular.eot');
+	src: local('☺'), url('fonts/BebasNeue-Regular.woff') format('woff'), url('fonts/BebasNeue-Regular.ttf') format('truetype'), url('fonts/BebasNeue-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url('./fonts/montserrat-semibold-webfont.woff2') format('woff2'),
-         url('./fonts/montserrat-semibold-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+	font-family: 'montserrat';
+	src: url('../fonts/Montserrat-SemiBold.eot');
+	src: local('☺'), url('fonts/Montserrat-SemiBold.woff') format('woff'), url('fonts/Montserrat-SemiBold.ttf') format('truetype'), url('fonts/Montserrat-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
 }
