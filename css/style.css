@@ -2,17 +2,19 @@
     --body-fonts: #231F20;
     --text-white: white;
     --color-project: #14475F;
-    --number-color:#2891B2;
-    --card-background-color:#1085A9;
-    --background-footer:#87C5E0;
-    --background-f2:#14475F;
-    --color-p:#414042;
+    --number-color: #2891B2;
+    --card-background-color: #1085A9;
+    --background-footer: #87C5E0;
+    --background-f2: #14475F;
+    --color-p: #414042;
 }
+
 *,
 *::after,
 ::before {
     box-sizing: border-box;
 }
+
 body {
     /* font-weight: 500;
     font-size: 14px; */
@@ -21,31 +23,38 @@ body {
     font-family: 'montserrat', 'bebasneue' sans-serif;
     color: var(--body-fonts);
 }
+
 #wrapper {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
+
 .container {
     margin: 0 auto;
     /* max-width: 1150px; */
     width: 100%;
 }
+
 .header {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .logo img {
     width: 100%;
 }
+
 .logo {
     float: right;
     margin: 30px 30px;
 }
+
 .text_header {
     padding-top: 55%;
 }
+
 h1 {
     font-family: 'bebasneue';
     color: var(--text-white);
@@ -53,6 +62,7 @@ h1 {
     line-height: 61px;
     margin: 0 30px;
 }
+
 h2 {
     font-family: 'montserrat';
     font-weight: 700;
@@ -63,18 +73,20 @@ h2 {
     padding: 26px 20px;
     margin: 0;
 }
+
 .number {
     font-family: 'bebasneue';
-    font-weight: 700;
     font-size: 162px;
     line-height: 162px;
     color: var(--number-color);
     margin-left: 65%;
 }
+
 .project {
     background-color: var(--color-project);
     height: 90px;
 }
+
 h3 {
     font-family: 'montserrat';
     font-size: 30px;
@@ -83,6 +95,7 @@ h3 {
     margin: 30px;
     padding-top: 40px;
 }
+
 .block_text p {
     font-family: 'montserrat';
     font-size: 18px;
@@ -90,9 +103,11 @@ h3 {
     color: var(--color-p);
     margin: 40px 30px;
 }
+
 .text_p {
     margin-top: -30px;
 }
+
 .card {
     width: 255px;
     /* height: 268px; */
@@ -101,16 +116,19 @@ h3 {
     cursor: pointer;
     margin: 0;
 }
+
 .card:hover {
     box-shadow: 1px 1px 6px;
 }
+
 .circle {
     height: 50px;
     width: 50px;
     background-color: var(--text-white);
     border-radius: 50%;
     margin: 0px 26px;
-  }
+}
+
 .block2 {
     max-width: 1110px;
     min-height: 430px;
@@ -118,23 +136,28 @@ h3 {
     margin: 0 auto;
     padding: 0 0;
 }
+
 .cards {
     margin: 0 24%;
     list-style: none;
     padding-left: 0;
 }
+
 .cards li {
     display: inline-block;
     width: calc(100% / 2);
     margin-right: -4px;
     padding-bottom: 30px;
 }
+
 .card_2 img {
-margin: 10px;
+    margin: 10px;
 }
+
 .text_card {
-margin: -12px 0;
+    margin: -12px 0;
 }
+
 .text_card h4 {
     font-family: 'montserrat';
     font-weight: 500;
@@ -144,6 +167,7 @@ margin: -12px 0;
     padding: 0 30px;
     margin-bottom: 34px;
 }
+
 .text_card p {
     font-family: 'montserrat';
     font-weight: 500;
@@ -152,11 +176,13 @@ margin: -12px 0;
     opacity: 0.5;
     margin: -32px 30px;
 }
+
 .explore {
-margin: 30px;
-color: var(--text-white);
-text-decoration: none;
+    margin: 30px;
+    color: var(--text-white);
+    text-decoration: none;
 }
+
 .circle_two {
     width: 18px;
     height: 18px;
@@ -164,62 +190,76 @@ text-decoration: none;
     border-radius: 50%;
     margin: -19px 93px;
 }
+
 .arrow {
     margin-top: -100px;
     padding-bottom: 30px;
 }
+
 .arrow img {
     margin-left: -18px;
 }
+
 .icon {
-margin: 30px;
-padding: 30px;
+    margin: 30px;
+    padding: 30px;
 }
+
 .footer {
     background: var(--background-footer);
     height: 179px;
     margin-bottom: -16px;
 }
+
 .nav {
-list-style: none;
-display: block;
-padding-left: 266px;
+    list-style: none;
+    display: block;
+    padding-left: 266px;
 }
+
 .center_footer_contact {
     display: inline-block;
 }
+
 .center_footer_contact_two {
-display: inline-block;
+    display: inline-block;
     margin-left: 174px;
 }
+
 .nav p {
-margin: 8px;
+    margin: 8px;
 }
+
 .contact {
     margin-left: 202px;
     margin-top: 30px;
 }
+
 .nav_two {
     margin-left: 155px;
     list-style: none;
 }
+
 .contact_one {
     margin-left: 273px;
     margin-top: 30px;
 }
+
 .nav_two li {
-margin: 8px;
+    margin: 8px;
 }
+
 .footer_two {
     background-color: var(--background-f2);
     color: var(--text-white);
     text-align: center;
 }
+
 .unsubscribe {
-color: var(--background-f2);
-text-align: center;
-font-family: 'montserrat';
-font-weight: 500;
-font-size: 13px;
-line-height: 150%;
+    color: var(--background-f2);
+    text-align: center;
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
 }
