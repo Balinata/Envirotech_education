@@ -180,7 +180,7 @@ h3 {
 .nav {
     list-style: none;
     display: block;
-    padding-left: 266px;
+    padding-left: 465px;
 }
 .center_footer_contact {
     display: inline-block;
@@ -193,15 +193,15 @@ h3 {
     margin: 8px;
 }
 .contact {
-    margin-left: 202px;
+    margin-left: -50px;
     margin-top: 30px;
 }
 .nav_two {
-    margin-left: 155px;
+    margin-left: -98px;
     list-style: none;
 }
 .contact_one {
-    margin-left: 273px;
+    margin-left: 473px;
     margin-top: 30px;
 }
 .nav_two li {
