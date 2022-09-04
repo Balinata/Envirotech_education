@@ -16,7 +16,7 @@
 body {
     height: 100%;
     line-height: 21px;
-    font-family: 'montserrat', 'bebasneue' sans-serif;
+    font-family: 'montserrat', 'bebasneue', cursive, sans-serif;
     color: var(--body-fonts);
 }
 #wrapper {
