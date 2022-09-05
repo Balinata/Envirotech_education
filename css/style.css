@@ -16,7 +16,7 @@
 body {
     height: 100%;
     line-height: 21px;
-    font-family: 'montserrat', 'bebasneue', cursive, sans-serif;
+    font-family: 'montserrat', 'bebasneue', sans-serif;
     color: var(--body-fonts);
 }
 #wrapper {
@@ -26,6 +26,7 @@ body {
 }
 .container {
     margin: 0 auto;
+    max-width: 1150px;
     width: 100%;
 }
 .header {
@@ -46,6 +47,7 @@ body {
 }
 h1 {
     font-family: 'bebasneue';
+    font-weight: 700;
     color: var(--text-white);
     font-size: 61px;
     line-height: 61px;
@@ -58,15 +60,16 @@ h2 {
     line-height: 27px;
     text-align: center;
     color: var(--text-white);
-    padding: 26px 20px;
+    padding: 20px;
     margin: 0;
 }
 .number {
     font-family: 'bebasneue';
+    font-weight: 700;
     font-size: 162px;
     line-height: 162px;
     color: var(--number-color);
-    margin-left: 65%;
+    margin-left: 70%;
 }
 .project {
     background-color: var(--color-project);
@@ -150,7 +153,7 @@ h3 {
     margin: -32px 30px;
 }
 .explore {
-    margin: 30px;
+    margin: 34px;
     color: var(--text-white);
     text-decoration: none;
 }
@@ -159,14 +162,14 @@ h3 {
     height: 18px;
     border: 0.1875em solid #ffffff;
     border-radius: 50%;
-    margin: -19px 93px;
+    margin: -20px 100px;
 }
 .arrow {
     margin-top: -100px;
     padding-bottom: 30px;
 }
 .arrow img {
-    margin-left: -18px;
+    margin-left: -31px;
 }
 .icon {
     margin: 30px;
@@ -180,29 +183,27 @@ h3 {
 .nav {
     list-style: none;
     display: block;
-    padding-left: 465px;
+    padding-left: 285px;
 }
 .center_footer_contact {
     display: inline-block;
 }
 .center_footer_contact_two {
     display: inline-block;
-    margin-left: 174px;
+    margin-left: 45px;
 }
 .nav p {
     margin: 8px;
 }
 .contact {
-    margin-left: -50px;
+    margin-left: 48px;
     margin-top: 30px;
 }
 .nav_two {
-    margin-left: -98px;
     list-style: none;
 }
 .contact_one {
-    margin-left: 473px;
-    margin-top: 30px;
+    margin-left: 292px;
 }
 .nav_two li {
     margin: 8px;
