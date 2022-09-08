@@ -26,24 +26,28 @@ body {
 }
 .container {
     margin: 0 auto;
-    padding: 0 20px;
-    max-width: 1150px;
+    /* max-width: 1150px; */
+    width: 100%;
 }
 .header {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 600px;
+    max-height: 400px;
 }
 .logo img {
     width: 100%;
     cursor: pointer;
+    display: inline-block;
 }
 .logo {
     float: right;
     margin: 30px 30px;
 }
 .text_header {
-    padding-top: 55%;
+    padding-top: 44%;
+    padding-bottom: 9px;
 }
 h1 {
     font-family: 'bebasneue';
@@ -81,7 +85,13 @@ h3 {
     line-height: 37px;
     color: var(--color-project);
     margin: 30px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
+}
+.main_block {
+    margin-top: -31px;
+}
+.block_text {
+    margin-top: 41px;
 }
 .block_text p {
     font-family: 'montserrat';
@@ -92,9 +102,25 @@ h3 {
 }
 .text_p {
     margin-top: -30px;
+    font-family: 'montserrat';
+    color: var(--color-p);
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.text_p_2 {
+    font-family: 'montserrat';
+    color: var(--color-p);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 42px;
 }
 .card {
     width: 255px;
+    display: inline-block;
     background: var(--card-background-color);
     padding-top: 30px;
     cursor: pointer;
@@ -110,17 +136,8 @@ h3 {
     border-radius: 50%;
     margin: 0px 26px;
 }
-.block2 {
-    max-width: 1110px;
-    min-height: 430px;
-    color: var(--body-fonts);
-    margin: 0 auto;
-    padding: 0 0;
-}
 .cards {
-    margin: 0 24%;
     list-style: none;
-    padding: 0;
 }
 .cards >li {
     display: inline-block;
@@ -182,8 +199,7 @@ h3 {
 }
 .nav {
     list-style: none;
-    display: block;
-    padding-left: 280px;
+    padding-left: 30px;
 }
 .center_footer_contact {
     display: inline-block;
@@ -196,14 +212,14 @@ h3 {
     margin: 8px;
 }
 .contact {
-    margin-left: 48px;
+    margin-left: 85px;
     margin-top: 30px;
 }
 .nav_two {
     list-style: none;
 }
 .contact_one {
-    margin-left: 287px;
+    margin-left: 38px;
 }
 .nav_two li {
     margin: 8px;
