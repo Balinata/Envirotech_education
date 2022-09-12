@@ -193,13 +193,13 @@ line-height: 22px;
     margin: 30px;
     padding: 30px;
 }
-.footer_one {
-    margin-top: -17px;
-}
 .footer {
     background: var(--background-footer);
     height: 180px;
     margin-bottom: -26px;
+}
+.footer_one {
+    margin-top: -16px;
 }
 .text_footer {
     height: 60px;
@@ -231,17 +231,22 @@ height: 60px;
     margin: 8px;
 }
 .contact {
-    margin-left: 85px;
-    margin-top: 30px;
+    margin-left: 43px;
+    margin-top: 32px;
 }
 .nav_two {
+    margin-left: -15px;
+}
+.nav_two li a {
+    text-decoration: none;
+    margin: 8px;
+}
+.nav_two li {
     list-style: none;
+    margin: 8px;
 }
 .contact_one {
     margin-left: 30px;
-}
-.nav_two li {
-    margin: 8px;
 }
 .footer_two {
     background-color: var(--background-f2);
@@ -254,4 +259,5 @@ height: 60px;
     font-weight: 500;
     font-size: 13px;
     line-height: 150%;
+    margin-top: -9px;
 }
