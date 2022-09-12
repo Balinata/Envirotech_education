@@ -212,9 +212,11 @@ h3 {
 .arrow {
     margin-top: -74px;
 }
+
 .arrow_three {
     margin-top: -82px;
 }
+
 .number_three {
     font-family: 'bebasneue';
     font-weight: 700;
@@ -223,11 +225,13 @@ h3 {
     color: var(--number-color);
     margin-left: 70%;
 }
+
 .explore_three {
     margin: -217px;
     color: var(--text-white);
     text-decoration: none;
 }
+
 .circle_three {
     width: 19px;
     height: 19px;
@@ -235,20 +239,22 @@ h3 {
     border-radius: 50%;
     margin: -40px 103px;
 }
+
 .arrow_three a img {
-margin-left: 107px;
-margin-top: 24px;
+    margin-left: 107px;
+    margin-top: 24px;
 }
 
 .arrow img {
     margin-left: 107px;
-    margin-top: 25px;
+    margin-top: 24px;
 }
 
 .icon {
     margin: 30px;
     padding: 30px;
 }
+
 .footer_one {
     margin-top: -16px;
 }
